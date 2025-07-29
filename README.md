@@ -1,4 +1,3 @@
-
 # dspy_llmstxt_generator
 
 This project uses the DSPy library to automatically generate `llms.txt` files for GitHub repositories. These files provide a standardized, high-level overview of a project's purpose, architecture, and key components, making it easier for developers and LLMs to quickly understand new codebases.
@@ -53,16 +52,7 @@ To use the `dspy_llmstxt_generator`:
 
 3.  **Run the generation script:**
     ```python
-    from step_4_Configure_DSPy_Generate_llmstxt import generate_llms_txt_for_dspy
-
-    if __name__ == "__main__":
-        result = generate_llms_txt_for_dspy()
-
-        # Save the generated llms.txt
-        with open("llms.txt", "w") as f:
-            f.write(result.llms_txt_content)
-
-        print("Generated llms.txt file!")
+    python -m scripts.main
     ```
 
 ## Example Output
