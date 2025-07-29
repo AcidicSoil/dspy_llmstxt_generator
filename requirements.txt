@@ -1,2 +1,5 @@
-dspy-ai
+dspy
 requests
+typing
+os
+pathlib
