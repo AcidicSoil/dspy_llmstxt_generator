@@ -121,11 +121,12 @@ DSPy is a framework for programming—rather than prompting—language models...
 
 ## File Structure
 
--   `step-1_defining_signatures.py`: Defines the DSPy signatures for analysis.
--   `step-2_Create_Repository_Analyzer_Module.py`: Creates the main `RepositoryAnalyzer` module.
--   `step-3_Gather_Repository_Information.py`: Gathers repository information from the GitHub API.
--   `step-4_Configure_DSPy_Generate_llmstxt.py`: Configures DSPy and runs the generation process.
--   `step-5-results_Expected_Output_Structure_example.txt`: Provides an example of the expected `llms.txt` file structure.
+- `analysis/` – DSPy modules for analyzing repositories (`signatures.py`,
+  `repository_analyzer.py`, `repository_info.py`, `generate_llmstxt.py`).
+- `docs/` – Additional documentation and example outputs (see
+  `docs/llms_examples/`).
+- `scripts/` – Entry-point utilities such as `main.py`.
+- `tests/` – Unit tests and integration tests.
 
 ## Dependencies
 
