@@ -1,0 +1,24 @@
+# DSPy: Programming Language Models
+
+## Project Overview
+DSPy is a framework for programming—rather than prompting—language models...
+
+## Key Concepts
+- **Modules**: Building blocks for LM programs
+- **Signatures**: Input/output specifications
+- **Teleprompters**: Optimization algorithms
+- **Predictors**: Core reasoning components
+
+## Architecture
+- `/dspy/`: Main package directory
+  - `/adapters/`: Input/output format handlers
+  - `/clients/`: LM client interfaces
+  - `/predict/`: Core prediction modules
+  - `/teleprompt/`: Optimization algorithms
+
+## Usage Examples
+1. **Building a Classifier**: Using DSPy, a user can define a modular classifier that takes in text data and categorizes it into predefined classes. The user can specify the classification logic declaratively, allowing for easy adjustments and optimizations.
+2. **Creating a RAG Pipeline**: A developer can implement a retrieval-augmented generation pipeline that first retrieves relevant documents based on a query and then generates a coherent response using those documents. DSPy facilitates the integration of retrieval and generation components seamlessly.
+3. **Optimizing Prompts**: Users can leverage DSPy to create a system that automatically optimizes prompts for language models based on performance metrics, improving the quality of responses over time without manual intervention.
+4. **Implementing Agent Loops**: A user can design an agent loop that continuously interacts with users, learns from feedback, and refines its responses, showcasing the self-improving capabilities of the DSPy framework.
+5. **Compositional Code**: Developers can write compositional code that allows different modules of the AI system to interact with each other, enabling complex workflows that can be easily modified and extended.
