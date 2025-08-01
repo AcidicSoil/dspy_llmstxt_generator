@@ -5,7 +5,7 @@ from analysis.repository_info import gather_repository_info
 
 def main():
     # Configure DSPy (use your preferred LM)
-    lm = dspy.LM(model="gpt-4o-mini")
+    lm = dspy.LM(model="qwen3:4b", provider="ollama")
     dspy.configure(lm=lm)
     # Make sure to set your OPENAI_API_KEY environment variable
 

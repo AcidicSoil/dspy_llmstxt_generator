@@ -1,5 +1,5 @@
 import dspy
-from typing import List
+from typing import list
 
 class AnalyzeRepository(dspy.Signature):
     """Analyze a repository structure and identify key components."""

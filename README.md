@@ -120,9 +120,5 @@ DSPy is a framework for programming—rather than prompting—language models...
 
 ## Dependencies
 
--   `dspy-ai`
+-   `dspy`
 -   `requests`
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.

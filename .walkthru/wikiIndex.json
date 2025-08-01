@@ -1,0 +1,53 @@
+[
+  {
+    "uuid": "0a01f53d-102f-4dec-820b-c2412d6bab80",
+    "title": "Project Overview and Setup",
+    "summary": "&abpn",
+    "subchapters": [
+      {
+        "uuid": "63afe0fe-ed40-4f3d-8ec9-3c8a9af95bad",
+        "title": "Project Structure and Modules",
+        "summary": "&abpn"
+      },
+      {
+        "uuid": "e256c23f-5492-4245-b4ad-03102914f00a",
+        "title": "Testing Framework Setup",
+        "summary": "&abpn"
+      },
+      {
+        "uuid": "7747a5bb-9291-45cd-9a08-3016dba24861",
+        "title": "Entry Point and Initialization",
+        "summary": "&abpn"
+      }
+    ]
+  },
+  {
+    "uuid": "807cf940-f950-41eb-a607-6d6f81063d32",
+    "title": "Repository Information Gathering",
+    "summary": "&abpn",
+    "subchapters": [
+      {
+        "uuid": "529ea509-3156-46b9-ab24-5467b4f1789b",
+        "title": "GitHub Repository Data Retrieval",
+        "summary": "&abpn"
+      }
+    ]
+  },
+  {
+    "uuid": "0b4c6f19-8f78-4180-896f-4f01fa34550f",
+    "title": "Repository and Code Structure Analysis",
+    "summary": "&abpn",
+    "subchapters": [
+      {
+        "uuid": "d7e899ab-9be6-49ea-8088-1b38671aaa1e",
+        "title": "Analysis Classes and Logic",
+        "summary": "&abpn"
+      },
+      {
+        "uuid": "acedb4cf-2186-4223-8dee-afd63057967d",
+        "title": "Repository Analysis Orchestration",
+        "summary": "&abpn"
+      }
+    ]
+  }
+]

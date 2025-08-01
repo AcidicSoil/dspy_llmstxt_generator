@@ -1,3 +1,6 @@
+from analysis.signatures import AnalyzeCodeStructure, AnalyzeRepository, GenerateLLMsTxt
+import dspy
+from typing import List
 class RepositoryAnalyzer(dspy.Module):
     def __init__(self):
         super().__init__()

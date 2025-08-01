@@ -7,5 +7,5 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
-scripts/push.sh
+.env
+.commitsage
